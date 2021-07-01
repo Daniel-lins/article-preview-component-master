@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+ :root {
+
+     --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+     --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+     --Grayish-Blue: hsl(212, 23%, 69%);
+     --Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+     font-size: 62.5%;
+ }
+
+
+
+ * {
+
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Manrope', sans-serif;
+ }
+
+
+
+ main {
+
+    
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100vw;
+        height: 100vh;
+        background-color: #EDF2F8;
+
+        .general-container{ 
+           
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px; 
+           
+            
+     .container-image {
+        display: flex;
+         .picture-1 {
+             width: 300px;
+             border-radius: 10px 0px 0px 10px;
+             overflow: hidden;
+            
+            
+         }
+     }
+
+
+     .second-container {
+
+         max-width: 320px;
+         margin-left: 20px;
+
+         .div-title {
+             h3 {
+                 color: var(--Very-Dark-Grayish-Blue);
+                 font-size: 1.8rem;
+                 font-weight: 700;
+                 margin-bottom: 20px;
+                 margin-top: 20px;
+
+             }
+         }
+
+         .div-text {
+
+             p {
+
+                 color: var(--Desaturated-Dark-Blue);
+                 font-size: 1.4rem;
+                 font-weight: 500;
+             }
+
+         }
+
+         .div-author {
+
+             margin-top: 20px;
+             display: flex;
+
+             .perfil-photo {
+                 img {
+                     width: 40px;
+                     border-radius: 50%;
+                 }
+             }
+         }
+
+         .name {
+             margin-left: 9px;
+
+             h3 {
+                 font-size: 1.2rem;
+                 color: var(--Very-Dark-Grayish-Blue);
+             }
+
+             p {
+                 color: var(--Grayish-Blue);
+             }
+         }
+     }
+
+     }
+ }
+
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+
+ @media(max-width:636px){
+    .general-container {
+        display: flex;
+        flex-direction: column;
+    }
+     
+ }

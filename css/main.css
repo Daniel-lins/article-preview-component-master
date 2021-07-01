@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #EDF2F8;
+}
+
+main .general-container {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+main .general-container .container-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .general-container .container-image .picture-1 {
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+  overflow: hidden;
+}
+
+main .general-container .second-container {
+  max-width: 320px;
+  margin-left: 20px;
+}
+
+main .general-container .second-container .div-title h3 {
+  color: var(--Very-Dark-Grayish-Blue);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main .general-container .second-container .div-text p {
+  color: var(--Desaturated-Dark-Blue);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+main .general-container .second-container .div-author {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .general-container .second-container .div-author .perfil-photo img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+main .general-container .second-container .name {
+  margin-left: 9px;
+}
+
+main .general-container .second-container .name h3 {
+  font-size: 1.2rem;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+
+main .general-container .second-container .name p {
+  color: var(--Grayish-Blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 636px) {
+  .general-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=main.css.map */
