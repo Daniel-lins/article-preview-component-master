@@ -100,6 +100,51 @@ main .general-container .second-container .name p {
   color: var(--Grayish-Blue);
 }
 
+main .general-container .second-container .tooltip .fa-share {
+  background-color: #ecf2f8;
+  color: #48556a;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 160px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+main .general-container .second-container .tooltip .fa-share:hover {
+  cursor: pointer;
+}
+
+main .general-container .second-container .tooltip .fa-share:active {
+  background: #48556a;
+  color: #fff;
+}
+
+main .general-container .second-container .tooltip p {
+  display: none;
+  position: fixed;
+  top: 59%;
+  right: 20%;
+  background-color: #48556a;
+  letter-spacing: 4px;
+  color: #fff;
+  font-weight: 500;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+}
+
+main .general-container .second-container .tooltip p:last-child {
+  position: absolute;
+  top: 55.4%;
+  right: 25.5%;
+  padding: 0;
+  background-color: transparent;
+  color: #48556a;
+}
+
+main .general-container .second-container .tooltip .tooltip:active p {
+  display: block;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -118,6 +163,19 @@ main .general-container .second-container .name p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .tooltip p {
+    display: none;
+    position: fixed;
+    top: 77%;
+    left: 14%;
+    width: 72%;
+    height: 10%;
+    background-color: #48556a;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
