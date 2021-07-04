@@ -164,11 +164,20 @@ main .general-container .second-container .tooltip .tooltip:active p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .tooltip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .tooltip p {
     display: none;
     position: fixed;
     top: 77%;
-    left: 14%;
+    left: 13%;
     width: 72%;
     height: 10%;
     background-color: #48556a;

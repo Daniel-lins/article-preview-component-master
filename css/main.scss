@@ -131,7 +131,7 @@
 
                  p {
                      display: none;
-                     position: fixed;
+                     position:fixed;
                      top: 59%;
                      right: 20%;
                      background-color: hsl(217, 19%, 35%);
@@ -182,14 +182,23 @@
      .general-container {
          display: flex;
          flex-direction: column;
+    
      }
 
-
-     .tooltip { p {
+     .div-author { 
+        
+    }
+   
+        
+          .tooltip { 
+              display: flex;
+              flex-direction: column;
+            p {
+         
          display: none;
          position: fixed;
          top: 77%;
-         left: 14%;
+         left: 13%;
          width: 72%;
          height: 10%;
          background-color: hsl(217, 19%, 35%);
@@ -197,8 +206,11 @@
          font-size: 16px;
          color: #fff;
          padding: 20px 0;}
-     }
+     }    }
 
 
- }
+    
+
+
+ 
 
